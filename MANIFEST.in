@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include essentialcom *.css
+recursive-include essentialcom *.csv
+recursive-include essentialcom *.html
+recursive-include essentialcom *.ico
+recursive-include essentialcom *.js
+recursive-include essentialcom *.json
+recursive-include essentialcom *.md
+recursive-include essentialcom *.png
+recursive-include essentialcom *.py
+recursive-include essentialcom *.svg
+recursive-include essentialcom *.txt
+recursive-exclude essentialcom *.pyc
