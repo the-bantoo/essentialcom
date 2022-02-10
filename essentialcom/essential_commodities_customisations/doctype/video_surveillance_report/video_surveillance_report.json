@@ -1,0 +1,365 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:VideoReport-{DD}-{MM}-{YY}",
+ "creation": "2022-02-08 13:40:23.923049",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "prepared_date",
+  "column_break_2",
+  "section_break_4",
+  "uhuru",
+  "uhuru_attachment",
+  "column_break_6",
+  "uhuru_comment",
+  "section_break_9",
+  "oil_mill",
+  "oil_mill_attachment",
+  "column_break_11",
+  "oil_mill_comment",
+  "section_break_13",
+  "admin",
+  "admin_attachment",
+  "column_break_15",
+  "admin_comment",
+  "section_break_17",
+  "tsp",
+  "tsp_attachment",
+  "column_break_21",
+  "tsp_comment",
+  "section_break_21",
+  "outside",
+  "outside_attachment",
+  "column_break_23",
+  "outside_comment",
+  "section_break_5",
+  "park",
+  "park_attachment",
+  "column_break_26",
+  "park_comment",
+  "section_break_28",
+  "shop",
+  "shop_attachment",
+  "column_break_29",
+  "shop_comment",
+  "column_break_34",
+  "store",
+  "store_attachment",
+  "column_break_32",
+  "store_comment",
+  "section_break_36",
+  "photo_1",
+  "column_break_38",
+  "photo_2",
+  "column_break_40",
+  "photo_3",
+  "column_break_42",
+  "photo_4_optional",
+  "section_break_42",
+  "prepared_by",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "prepared_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "uhuru",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Uhuru",
+   "options": "\nNo suspicious activity\nDoor Left Unlocked or Open\nCCTV Camera Not Functioning\nMotion Sensor Not Functioning\nSuspicious Person(s)\nLoitering Person(s)\nVandalism\nTrespassing\nFire Alarm Issue\nParking Gate Not Functioning\nEmergency Lights / Signage Issue\nOther (specify in comment)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "uhuru_comment",
+   "fieldtype": "Small Text",
+   "label": "Comment (Leave blank if no unusual activity)"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "oil_mill",
+   "fieldtype": "Select",
+   "label": "Oil Mill",
+   "options": "\nNo suspicious activity\nDoor Left Unlocked or Open\nCCTV Camera Not Functioning\nMotion Sensor Not Functioning\nSuspicious Person(s)\nLoitering Person(s)\nVandalism\nTrespassing\nFire Alarm Issue\nParking Gate Not Functioning\nEmergency Lights / Signage Issue\nOther (specify in comment)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "oil_mill_comment",
+   "fieldtype": "Small Text",
+   "label": "Comment (Leave blank if no unusual activity)"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "admin",
+   "fieldtype": "Select",
+   "label": "Admin",
+   "options": "\nNo suspicious activity\nDoor Left Unlocked or Open\nCCTV Camera Not Functioning\nMotion Sensor Not Functioning\nSuspicious Person(s)\nLoitering Person(s)\nVandalism\nTrespassing\nFire Alarm Issue\nParking Gate Not Functioning\nEmergency Lights / Signage Issue\nOther (specify in comment)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "admin_comment",
+   "fieldtype": "Small Text",
+   "label": "Comment (Leave blank if no unusual activity)"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tsp",
+   "fieldtype": "Select",
+   "label": "TSP",
+   "options": "\nNo suspicious activity\nDoor Left Unlocked or Open\nCCTV Camera Not Functioning\nMotion Sensor Not Functioning\nSuspicious Person(s)\nLoitering Person(s)\nVandalism\nTrespassing\nFire Alarm Issue\nParking Gate Not Functioning\nEmergency Lights / Signage Issue\nOther (specify in comment)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tsp_comment",
+   "fieldtype": "Small Text",
+   "label": "Comment (Leave blank if no unusual activity)"
+  },
+  {
+   "fieldname": "section_break_21",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "outside",
+   "fieldtype": "Select",
+   "label": "Outside",
+   "options": "\nNo suspicious activity\nDoor Left Unlocked or Open\nCCTV Camera Not Functioning\nMotion Sensor Not Functioning\nSuspicious Person(s)\nLoitering Person(s)\nVandalism\nTrespassing\nFire Alarm Issue\nParking Gate Not Functioning\nEmergency Lights / Signage Issue\nOther (specify in comment)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "outside_comment",
+   "fieldtype": "Small Text",
+   "label": "Comment (Leave blank if no unusual activity)"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "park",
+   "fieldtype": "Select",
+   "label": "Car Park",
+   "options": "\nNo suspicious activity\nDoor Left Unlocked or Open\nCCTV Camera Not Functioning\nMotion Sensor Not Functioning\nSuspicious Person(s)\nLoitering Person(s)\nVandalism\nTrespassing\nFire Alarm Issue\nParking Gate Not Functioning\nEmergency Lights / Signage Issue\nOther (specify in comment)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "park_comment",
+   "fieldtype": "Small Text",
+   "label": "Comment (Leave blank if no unusual activity)"
+  },
+  {
+   "fieldname": "section_break_28",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "shop",
+   "fieldtype": "Select",
+   "label": "Factory Shop",
+   "options": "\nNo suspicious activity\nDoor Left Unlocked or Open\nCCTV Camera Not Functioning\nMotion Sensor Not Functioning\nSuspicious Person(s)\nLoitering Person(s)\nVandalism\nTrespassing\nFire Alarm Issue\nParking Gate Not Functioning\nEmergency Lights / Signage Issue\nOther (specify in comment)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shop_comment",
+   "fieldtype": "Small Text",
+   "label": "Comment (Leave blank if no unusual activity)"
+  },
+  {
+   "fieldname": "column_break_34",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "store",
+   "fieldtype": "Select",
+   "label": "Store",
+   "options": "\nNo suspicious activity\nDoor Left Unlocked or Open\nCCTV Camera Not Functioning\nMotion Sensor Not Functioning\nSuspicious Person(s)\nLoitering Person(s)\nVandalism\nTrespassing\nFire Alarm Issue\nParking Gate Not Functioning\nEmergency Lights / Signage Issue\nOther (specify in comment)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "store_comment",
+   "fieldtype": "Small Text",
+   "label": "Comment (Leave blank if no unusual activity)"
+  },
+  {
+   "fieldname": "section_break_36",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "photo_1",
+   "fieldtype": "Attach Image",
+   "label": "Logbook Photo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_38",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "photo_2",
+   "fieldtype": "Attach Image",
+   "label": "Photo 2 (optional)"
+  },
+  {
+   "fieldname": "column_break_40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "photo_3",
+   "fieldtype": "Attach Image",
+   "label": "Photo 3 (optional)"
+  },
+  {
+   "fieldname": "column_break_42",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "photo_4_optional",
+   "fieldtype": "Attach Image",
+   "label": "Photo 4 (optional)"
+  },
+  {
+   "fieldname": "section_break_42",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "prepared_by",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Prepared By",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Video Surveillance Report",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "uhuru_attachment",
+   "fieldtype": "Attach",
+   "label": "Photo or video (optional)"
+  },
+  {
+   "fieldname": "oil_mill_attachment",
+   "fieldtype": "Attach",
+   "label": "Photo or video (optional)"
+  },
+  {
+   "fieldname": "admin_attachment",
+   "fieldtype": "Attach",
+   "label": "Photo or video (optional)"
+  },
+  {
+   "fieldname": "tsp_attachment",
+   "fieldtype": "Attach",
+   "label": "Photo or video (optional)"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "outside_attachment",
+   "fieldtype": "Attach",
+   "label": "Photo or video (optional)"
+  },
+  {
+   "fieldname": "park_attachment",
+   "fieldtype": "Attach",
+   "label": "Photo or video (optional)"
+  },
+  {
+   "fieldname": "shop_attachment",
+   "fieldtype": "Attach",
+   "label": "Photo or video (optional)"
+  },
+  {
+   "fieldname": "store_attachment",
+   "fieldtype": "Attach",
+   "label": "Photo or video (optional)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-02-09 12:10:05.205143",
+ "modified_by": "Administrator",
+ "module": "Essential Commodities Customisations",
+ "name": "Video Surveillance Report",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

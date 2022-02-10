@@ -1,0 +1,514 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:BoilerChecklist-{DD}-{MM}-{YY}-{shift}-Shift",
+ "creation": "2022-02-07 14:08:55.150511",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "amended_from",
+  "shift",
+  "section_break_3",
+  "danks_bar",
+  "column_break_5",
+  "danks_bar_notes",
+  "section_break_5",
+  "kabwe_bar",
+  "column_break_8",
+  "kabwe_bar_notes",
+  "section_break_7",
+  "gauge",
+  "column_break_11",
+  "gauge_notes",
+  "section_break_9",
+  "stack_temp",
+  "column_break_14",
+  "stack_temp_notes",
+  "section_break_11",
+  "id_fan_noise",
+  "column_break_17",
+  "id_fan_noise_notes",
+  "section_break_13",
+  "fd_fan_noise",
+  "column_break_20",
+  "fd_fan_noise_notes",
+  "section_break_15",
+  "boiler_feed_water_noise",
+  "column_break_23",
+  "boiler_feed_water_noise_notes",
+  "section_break_17",
+  "boiler_feed_water_temp",
+  "column_break_22",
+  "boiler_feed_water_temp_notes",
+  "section_break_19",
+  "mobrey_valves",
+  "column_break_29",
+  "mobrey_valves_notes",
+  "section_break_21",
+  "cock_leaking",
+  "column_break_32",
+  "cock_leaking_notes",
+  "section_break_23",
+  "cock_opening",
+  "column_break_35",
+  "cock_opening_notes",
+  "section_break_25",
+  "cock_closing",
+  "column_break_38",
+  "cock_closing_notes",
+  "section_break_27",
+  "bdv_leaking",
+  "column_break_41",
+  "bdv_leaking_notes",
+  "section_break_29",
+  "bdv_opening",
+  "column_break_45",
+  "bdv_opening_notes",
+  "section_break_31",
+  "bdv_closing",
+  "column_break_47",
+  "bdv_closing_notes",
+  "section_break_33",
+  "feed_tank_water_level",
+  "column_break_50",
+  "feed_tank_water_level_notes",
+  "section_break_35",
+  "softener_pump_noise",
+  "column_break_53",
+  "softener_pump_noise_notes",
+  "section_break_37",
+  "softener_working",
+  "column_break_56",
+  "softener_working_notes",
+  "section_break_22",
+  "safety_valve_working",
+  "column_break_77",
+  "safety_valve_working_notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Boiler Checklist 2",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Shift",
+   "options": "\nDay\nNight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "danks_bar",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "What is the Steam Pressure in Danks Boiler? (bar)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "danks_bar_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "kabwe_bar",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "What is the Steam Pressure in Kabwe Boiler? (bar)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kabwe_bar_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gauge",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "What is the gauge glass water level? (%)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gauge_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "stack_temp",
+   "fieldtype": "Float",
+   "label": "What is the Stack Temperature? (\u00b0C)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stack_temp_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "id_fan_noise",
+   "fieldtype": "Select",
+   "label": "Is ID fan making strange noise when running?",
+   "options": "\nNormal noise\nStrange noise",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "id_fan_noise_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fd_fan_noise",
+   "fieldtype": "Select",
+   "label": "Is FD fan making strange noise when running?",
+   "options": "\nNormal noise\nStrange noise",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fd_fan_noise_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "boiler_feed_water_noise",
+   "fieldtype": "Select",
+   "label": "Is boiler feed water pump making strange noise when running?",
+   "options": "\nNormal noise\nStrange noise",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "boiler_feed_water_noise_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "boiler_feed_water_temp",
+   "fieldtype": "Float",
+   "label": "What is the Boiler Feed Water Temperature? (\u00b0C)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "boiler_feed_water_temp_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mobrey_valves",
+   "fieldtype": "Select",
+   "label": "Are mobrey valves leaking?",
+   "options": "\nLeaking\nNot Leaking",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mobrey_valves_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_21",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cock_leaking",
+   "fieldtype": "Select",
+   "label": "Are cock valves leaking?",
+   "options": "\nLeaking\nNot Leaking",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cock_leaking_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_23",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cock_opening",
+   "fieldtype": "Select",
+   "label": "Are cock valves opening?",
+   "options": "\nOpening\nNot Opening",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cock_opening_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cock_closing",
+   "fieldtype": "Select",
+   "label": "Are cock valves closing?",
+   "options": "\nClosing\nNot Closing",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_38",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cock_closing_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bdv_leaking",
+   "fieldtype": "Select",
+   "label": "Is blow down valve leaking?",
+   "options": "\nLeaking\nNot Leaking",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_41",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bdv_leaking_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_29",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bdv_opening",
+   "fieldtype": "Select",
+   "label": "Is blow down valve opening?",
+   "options": "\nOpening\nNot Opening",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bdv_opening_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_31",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bdv_closing",
+   "fieldtype": "Select",
+   "label": "Is blow down valve closing?",
+   "options": "\nClosing\nNot Closing",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_47",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bdv_closing_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_33",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "feed_tank_water_level",
+   "fieldtype": "Percent",
+   "label": "What is water level in feed tank? (%)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_50",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "feed_tank_water_level_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "softener_pump_noise",
+   "fieldtype": "Select",
+   "label": "Is softener inlet pump making strange noise when running?",
+   "options": "\nNormal noise\nStrange noise",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_53",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "softener_pump_noise_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_37",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "softener_working",
+   "fieldtype": "Select",
+   "label": "Is Water Softener working?",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_56",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "softener_working_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "safety_valve_working",
+   "fieldtype": "Select",
+   "label": "Is the safety valve working?",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_77",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "safety_valve_working_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-02-08 22:34:11.048510",
+ "modified_by": "Administrator",
+ "module": "Essential Commodities Customisations",
+ "name": "Boiler Checklist 2",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

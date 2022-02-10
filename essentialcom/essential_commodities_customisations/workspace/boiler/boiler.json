@@ -1,0 +1,58 @@
+{
+ "charts": [],
+ "content": "[]",
+ "creation": "2022-02-10 11:58:23.372777",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "today",
+ "idx": 0,
+ "label": "Boiler",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Entries",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Boiler Checklist",
+   "link_count": 0,
+   "link_to": "Boiler Checklist",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  }
+ ],
+ "modified": "2022-02-10 12:39:51.804811",
+ "modified_by": "Administrator",
+ "module": "Essential Commodities Customisations",
+ "name": "Boiler",
+ "owner": "adam@thebantoo.com",
+ "public": 1,
+ "roles": [
+  {
+   "role": "Boiler Manager"
+  },
+  {
+   "role": "Accounts Manager"
+  }
+ ],
+ "sequence_id": 0,
+ "shortcuts": [],
+ "title": "Boiler"
+}
