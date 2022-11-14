@@ -1,31 +1,17 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:BoilerChecklist-{DD}-{MM}-{YY}-{shift}-Shift",
+ "autoname": "format:BoilerChecklist-{prepared_date}-{shfit}",
  "creation": "2022-02-10 12:07:55.070105",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "amended_from",
+  "prepared_date",
+  "column_break_3",
   "shift",
   "section_break_3",
-  "danks_bar",
-  "column_break_5",
-  "danks_bar_notes",
-  "section_break_5",
-  "kabwe_bar",
-  "column_break_8",
-  "kabwe_bar_notes",
-  "section_break_7",
-  "gauge",
-  "column_break_11",
-  "gauge_notes",
-  "section_break_9",
-  "stack_temp",
-  "column_break_14",
-  "stack_temp_notes",
-  "section_break_11",
   "id_fan_noise",
   "column_break_17",
   "id_fan_noise_notes",
@@ -38,10 +24,6 @@
   "column_break_23",
   "boiler_feed_water_noise_notes",
   "section_break_17",
-  "boiler_feed_water_temp",
-  "column_break_22",
-  "boiler_feed_water_temp_notes",
-  "section_break_19",
   "mobrey_valves",
   "column_break_29",
   "mobrey_valves_notes",
@@ -70,10 +52,6 @@
   "column_break_47",
   "bdv_closing_notes",
   "section_break_33",
-  "feed_tank_water_level",
-  "column_break_50",
-  "feed_tank_water_level_notes",
-  "section_break_35",
   "softener_pump_noise",
   "column_break_53",
   "softener_pump_noise_notes",
@@ -106,85 +84,6 @@
   },
   {
    "fieldname": "section_break_3",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "danks_bar",
-   "fieldtype": "Float",
-   "in_list_view": 1,
-   "label": "What is the Steam Pressure in Danks Boiler? (bar)",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_5",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "danks_bar_notes",
-   "fieldtype": "Small Text",
-   "label": "Notes"
-  },
-  {
-   "fieldname": "section_break_5",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "kabwe_bar",
-   "fieldtype": "Float",
-   "in_list_view": 1,
-   "label": "What is the Steam Pressure in Kabwe Boiler? (bar)",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_8",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "kabwe_bar_notes",
-   "fieldtype": "Small Text",
-   "label": "Notes"
-  },
-  {
-   "fieldname": "section_break_7",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "gauge",
-   "fieldtype": "Percent",
-   "in_list_view": 1,
-   "label": "What is the gauge glass water level? (%)",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_11",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "gauge_notes",
-   "fieldtype": "Small Text",
-   "label": "Notes"
-  },
-  {
-   "fieldname": "section_break_9",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "stack_temp",
-   "fieldtype": "Float",
-   "label": "What is the Stack Temperature? (\u00b0C)",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_14",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "stack_temp_notes",
-   "fieldtype": "Small Text",
-   "label": "Notes"
-  },
-  {
-   "fieldname": "section_break_11",
    "fieldtype": "Section Break"
   },
   {
@@ -245,25 +144,6 @@
   },
   {
    "fieldname": "section_break_17",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "boiler_feed_water_temp",
-   "fieldtype": "Float",
-   "label": "What is the Boiler Feed Water Temperature? (\u00b0C)",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_22",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "boiler_feed_water_temp_notes",
-   "fieldtype": "Small Text",
-   "label": "Notes"
-  },
-  {
-   "fieldname": "section_break_19",
    "fieldtype": "Section Break"
   },
   {
@@ -407,25 +287,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "feed_tank_water_level",
-   "fieldtype": "Percent",
-   "label": "What is water level in feed tank? (%)",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_50",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "feed_tank_water_level_notes",
-   "fieldtype": "Small Text",
-   "label": "Notes"
-  },
-  {
-   "fieldname": "section_break_35",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "softener_pump_noise",
    "fieldtype": "Select",
    "label": "Is softener inlet pump making strange noise when running?",
@@ -480,16 +341,26 @@
    "fieldname": "safety_valve_working_notes",
    "fieldtype": "Small Text",
    "label": "Notes"
+  },
+  {
+   "default": "Today",
+   "fieldname": "prepared_date",
+   "fieldtype": "Date",
+   "label": "Prepared Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-02-10 12:25:26.172364",
+ "modified": "2022-02-18 10:11:28.476496",
  "modified_by": "Administrator",
  "module": "Essential Commodities Customisations",
  "name": "Boiler Checklist",
- "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -522,7 +393,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": [],
  "track_changes": 1,
  "track_seen": 1,
  "track_views": 1

@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:BoilerHourly-{prepared_date}-{shift}",
+ "creation": "2022-02-16 14:32:44.665172",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "time",
+  "danks_bar",
+  "danks_gauge",
+  "danks_stack_temp",
+  "kabwe_bar",
+  "kabwe_gauge",
+  "boiler_feed_temp",
+  "feed_level",
+  "notes"
+ ],
+ "fields": [
+  {
+   "default": "Now",
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "danks_bar",
+   "fieldtype": "Float",
+   "label": "Danks Steam Pressure (bar)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "danks_gauge",
+   "fieldtype": "Percent",
+   "label": "Danks Gauge Glass Water Level (%)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "danks_stack_temp",
+   "fieldtype": "Float",
+   "label": "Danks Stack Temperature (\u00b0C)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "kabwe_bar",
+   "fieldtype": "Float",
+   "label": "Kabwe Steam Pressure (bar)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "kabwe_gauge",
+   "fieldtype": "Percent",
+   "label": "Kabwe Gauge Glass Water Level (%)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "boiler_feed_temp",
+   "fieldtype": "Float",
+   "label": "Boiler Feed Water Temperature (\u00b0C)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "feed_level",
+   "fieldtype": "Percent",
+   "label": "Feed Tank Water Level (%)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-23 11:51:04.388695",
+ "modified_by": "Administrator",
+ "module": "Essential Commodities Customisations",
+ "name": "Boiler Hourly Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

@@ -1,0 +1,24 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "width": "Half"
+  },
+  {
+   "chart": "test leon. + luq",
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-02-19 10:18:04.289742",
+ "dashboard_name": "test dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2022-02-19 10:19:34.877466",
+ "modified_by": "ldawoodjee@gmail.com",
+ "module": "Essential Commodities Customisations",
+ "name": "test dashboard",
+ "owner": "ldawoodjee@gmail.com"
+}

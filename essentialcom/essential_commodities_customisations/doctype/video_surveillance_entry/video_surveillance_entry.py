@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class BoilerChecklist2(Document):
+class VideoSurveillanceEntry(Document):
 	pass

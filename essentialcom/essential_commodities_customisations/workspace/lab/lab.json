@@ -1,0 +1,196 @@
+{
+ "cards_label": "Lab Analysis Entries History",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2022-04-20 10:22:46.023296",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 1,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Lab",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "TSP Nuggets Chemical Analysis History",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "TSP Nuggets Chemical Analysis Reports",
+   "link_to": "TSP Nuggets Daily Report",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Soya Cake Chemical Analysis History",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Low Fat Analysis Reports",
+   "link_to": "Low Fat Chemical Analysis Report",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Full Fat Analysis Reports",
+   "link_to": "Full Fat Chemical Analysis Report",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "TSP Base Analysis Report",
+   "link_to": "TSP Base Chemical Analysis Report",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Raw Grain Inspection Reports History",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Raw Grain Inspection Reports List",
+   "link_to": "Raw Grain Inspection Report",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Requisition History",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Requisitions List",
+   "link_to": "Requisition Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Boiler Water Analysis History",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Boiler Water Analysis Lab Report",
+   "link_to": "Boiler Water Analysis Lab Report",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Refinery Oil Analysis History",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Refinery Oil Analysis Lab Report",
+   "link_to": "Refinery Oil Analysis Lab Report",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-05-23 12:12:28.867170",
+ "modified_by": "leonit@essentialcom.biz",
+ "module": "Essential Commodities Customisations",
+ "name": "Lab",
+ "owner": "leonit@essentialcom.biz",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "New",
+   "label": "+TSP Nuggets Chemical Analysis Report",
+   "link_to": "TSP Nuggets Daily Report",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "New",
+   "label": "+Low Fat Chemical Analysis Report",
+   "link_to": "Low Fat Chemical Analysis Report",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "New",
+   "label": "+Full Fat Chemical Analysis Report",
+   "link_to": "Full Fat Chemical Analysis Report",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "New",
+   "label": "+Requisition",
+   "link_to": "Requisition Form",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "New",
+   "label": "+Raw Grain Inspection Report",
+   "link_to": "Raw Grain Inspection Report",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "New",
+   "label": "+TSP Base Chemical Analysis Report",
+   "link_to": "TSP Base Chemical Analysis Report",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "New",
+   "label": "+Refinery Oil Analysis Lab Report",
+   "link_to": "Refinery Oil Analysis Lab Report",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "New",
+   "label": "+Boiler Water Analysis Lab Report",
+   "link_to": "Boiler Water Analysis Lab Report",
+   "type": "DocType"
+  }
+ ],
+ "shortcuts_label": "New Entries "
+}

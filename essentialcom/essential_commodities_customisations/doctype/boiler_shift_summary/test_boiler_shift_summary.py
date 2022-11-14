@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestBoilerChecklist2(unittest.TestCase):
+class TestBoilerShiftSummary(unittest.TestCase):
 	pass
