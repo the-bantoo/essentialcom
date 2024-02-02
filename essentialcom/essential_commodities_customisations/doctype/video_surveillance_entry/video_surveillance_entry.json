@@ -462,10 +462,11 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-02-28 13:35:20.045580",
+ "modified": "2023-10-03 12:57:19.549319",
  "modified_by": "Administrator",
  "module": "Essential Commodities Customisations",
  "name": "Video Surveillance Entry",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -477,6 +478,7 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "select": 1,
    "share": 1,
    "submit": 1,
    "write": 1
@@ -498,6 +500,7 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1,
  "track_seen": 1,
  "track_views": 1
